@@ -8,4 +8,4 @@ an IoT scenario where a CoAP client interacts with a CoAP Coffee Machine in orde
 - Make a default Coffee (POST Request)
 - Make a custom Coffee (Short, Medium, Long) (PUT Request)
 
-The project use the Lava Library Californium that can be imported and used through the provided pom file.
+The project use the Java Library Californium that can be imported and used through the provided pom file.
