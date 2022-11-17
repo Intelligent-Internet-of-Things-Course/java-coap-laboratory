@@ -1,9 +1,12 @@
 package it.unimore.fum.iot;
 
+import it.unimore.fum.iot.model.CapsulePresenceSensorDescriptor;
 import it.unimore.fum.iot.resource.CapsulePresenceSensorResource;
 import it.unimore.fum.iot.resource.CoffeeActuatorResource;
 import it.unimore.fum.iot.resource.TemperatureSensorResource;
 import org.eclipse.californium.core.CoapServer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author Marco Picone, Ph.D. - picone.m@gmail.com
@@ -11,6 +14,8 @@ import org.eclipse.californium.core.CoapServer;
  * @created 12/11/2021 - 11:57
  */
 public class CoffeeMachineCoapProcess extends CoapServer {
+
+    private final static Logger logger = LoggerFactory.getLogger(CoffeeMachineCoapProcess.class);
 
     public CoffeeMachineCoapProcess(){
 
